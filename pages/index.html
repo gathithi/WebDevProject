@@ -26,13 +26,14 @@
                     <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-                <button id="theme-toggle" class="btn btn-outline-light ms-3">🌙 Dark Mode</button>
+                <button id="theme-toggle" class="btn btn-outline-dark ms-3">🌙 Dark Mode</button>
             </div>
         </div>
     </nav>
 
     <!-- Main Content -->
     <main>
+        <!-- Hero Section -->
         <header class="hero-section text-center">
             <div class="container">
                 <h1 class="display-3 fw-bold">Welcome to Brewnest Cafe</h1>
@@ -41,14 +42,88 @@
             </div>
         </header>
 
+        <!-- Our Philosophy Section -->
         <section class="container my-5">
             <div class="row align-items-center">
                 <div class="col-md-6 mb-4 mb-md-0">
                     <h2>Our Coffee Philosophy</h2>
                     <p>We source our beans from sustainable, fair-trade farms across the globe. Every cup is brewed with precision to bring out the unique flavor profiles of the roast.</p>
+                    <p>Our team of passionate baristas is dedicated to the craft of coffee making, ensuring that your morning brew or afternoon pick-me-up is nothing short of perfect.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid rounded" alt="Barista pouring coffee">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow" alt="Barista pouring coffee">
+                </div>
+            </div>
+        </section>
+
+        <!-- Weekly Specials Section -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">This Week's Specials</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <h4 class="card-title text-dark">Lavender Honey Latte</h4>
+                                <p class="card-text text-muted">Our signature espresso infused with organic honey and a hint of culinary lavender stems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <h4 class="card-title text-dark">Pistachio Rose Croissant</h4>
+                                <p class="card-text text-muted">Flaky, house-baked croissant filled with rich pistachio paste and dusted with rose petals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <h4 class="card-title text-dark">Nitro Cold Brew Float</h4>
+                                <p class="card-text text-muted">Creamy, nitrogen-infused cold brew poured over a generous scoop of artisanal vanilla bean gelato.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="container my-5 text-center">
+            <h2 class="mb-4">What Our Nestlings Say</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <blockquote class="blockquote">
+                                    <p class="mb-3">"Brewnest is my absolute favorite remote workspace. The Wi-Fi is fast, the atmosphere is incredibly cozy, and the flat whites are unparalleled!"</p>
+                                    <footer class="blockquote-footer">Liam M., <cite title="Source Title">Local Freelancer</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours & Location Section -->
+        <section class="container my-5 border-top pt-5">
+            <div class="row text-center text-md-start g-4">
+                <div class="col-md-6">
+                    <h3>Find the Nest</h3>
+                    <p class="mb-1"> Ndege Road, Off Langata Road</p>
+                    <p class="mb-1"> 0722271846</p>
+                    <p> hello@brewnestcafe.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Hours</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Monday - Friday:</strong> 6:30 AM - 6:00 PM</li>
+                        <li><strong>Saturday:</strong> 7:00 AM - 7:00 PM</li>
+                        <li><strong>Sunday:</strong> 8:00 AM - 5:00 PM</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -58,7 +133,7 @@
     <footer class="text-center py-4 mt-auto">
         <div class="container">
             <p class="mb-0">&copy; 2026 Brewnest Cafe. All rights reserved.</p>
-            <small>Follow us on <a href="#" class="text-light">Instagram</a> | <a href="#" class="text-light">Twitter</a></small>
+            <small>Follow us on <a href="#" class="text-dark">Instagram</a> | <a href="#" class="text-dark">Twitter</a></small>
         </div>
     </footer>
 
