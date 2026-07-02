@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Consistent Navigation -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">☕ Brewnest Cafe</a>
@@ -24,7 +25,7 @@
                     <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-                <button id="theme-toggle" class="btn btn-outline-dark ms-3">🌙 Dark Mode</button>
+                <button id="theme-toggle" class="btn btn-outline-light ms-3">🌙 Dark Mode</button>
             </div>
         </div>
     </nav>
@@ -33,30 +34,67 @@
         <h1 class="text-center mb-5">Upcoming Events & News</h1>
         <div class="row">
             <div class="col-md-8 mx-auto">
+                
+                <!-- Event 1: Free -->
                 <div class="card mb-4 shadow-sm border-0">
                     <div class="card-body">
-                        <h3 class="card-title">Live Acoustic Night</h3>
-                        <h6 class="card-subtitle mb-2 text-muted">July 15, 2026 | 7:00 PM - 9:00 PM</h6>
-                        <p class="card-text">Join us for a relaxing evening featuring local acoustic artist Sarah Jenkins. Enjoy our special evening menu, including herbal teas and decadent desserts.</p>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h3 class="card-title mb-0">Live Acoustic Night</h3>
+                            <span class="badge bg-success rounded-pill px-3 py-2">Free Entry</span>
+                        </div>
+                        <h6 class="card-subtitle mb-3 text-muted">July 15, 2026 | 7:00 PM - 9:00 PM</h6>
+                        <p class="card-text">Join us for a relaxing evening featuring local acoustic artist Sarah Jenkins. Enjoy our special evening menu, including herbal teas and decadent desserts. No cover charge, just good vibes and great coffee.</p>
                     </div>
                 </div>
+
+                <!-- Event 2: Paid (Special Guest) -->
+                <div class="card mb-4 shadow-sm border-0 border-start border-5 border-warning">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h3 class="card-title mb-0">Latte Art Masterclass</h3>
+                            <span class="badge bg-warning text-dark rounded-pill px-3 py-2">Ticketed: $25</span>
+                        </div>
+                        <h6 class="card-subtitle mb-3 text-muted">July 22, 2026 | 10:00 AM - 12:00 PM</h6>
+                        <p class="card-text"><strong>Featuring Special Guest: National Barista Champion, David Ross.</strong> Ever wanted to pour the perfect heart or rosetta? David is hosting an exclusive hands-on workshop. Tickets are limited to 15 people and include a bag of our house roast.</p>
+                    </div>
+                </div>
+
+                <!-- Event 3: Free -->
                 <div class="card mb-4 shadow-sm border-0">
                     <div class="card-body">
-                        <h3 class="card-title">Latte Art Workshop</h3>
-                        <h6 class="card-subtitle mb-2 text-muted">July 22, 2026 | 10:00 AM - 12:00 PM</h6>
-                        <p class="card-text">Ever wanted to pour the perfect heart or rosetta? Our head barista is hosting a hands-on workshop. Tickets are $25 and include a bag of our house roast.</p>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h3 class="card-title mb-0">Poetry Slam & Open Mic</h3>
+                            <span class="badge bg-success rounded-pill px-3 py-2">Free Entry</span>
+                        </div>
+                        <h6 class="card-subtitle mb-3 text-muted">August 5, 2026 | 6:30 PM - 8:30 PM</h6>
+                        <p class="card-text">Step up to the mic or simply sit back and snap for your local poets. Sign-ups begin at 6:00 PM. This is a free community event aimed at celebrating local voices in a supportive, cozy atmosphere.</p>
                     </div>
                 </div>
+
+                <!-- Event 4: Paid (Special Guest) -->
+                <div class="card mb-4 shadow-sm border-0 border-start border-5 border-warning">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h3 class="card-title mb-0">Origin Bean Tasting Journey</h3>
+                            <span class="badge bg-warning text-dark rounded-pill px-3 py-2">Ticketed: $15</span>
+                        </div>
+                        <h6 class="card-subtitle mb-3 text-muted">August 12, 2026 | 2:00 PM - 4:00 PM</h6>
+                        <p class="card-text"><strong>Featuring Special Guest: Head Roaster, Maria Silva.</strong> Travel the world through your coffee cup. Maria will guide you through a cupping session of three rare single-origin roasts from Ethiopia, Colombia, and Sumatra. Ticket covers the tasting flight and a pastry pairing.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
 
+    <!-- Consistent Footer -->
     <footer class="text-center py-4 mt-auto">
         <div class="container">
             <p class="mb-0">&copy; 2026 Brewnest Cafe. All rights reserved.</p>
-            <small>Follow us on <a href="#" class="text-light">Instagram</a> | <a href="#" class="text-light">X</a></small>
+            <small>Follow us on <a href="#" class="text-light">Instagram</a> | <a href="#" class="text-light">Twitter</a></small>
         </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
